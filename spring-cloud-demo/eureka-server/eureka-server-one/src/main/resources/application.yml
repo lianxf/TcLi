@@ -1,0 +1,20 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: @artifactId@
+  security:
+    user:
+      name: eureka
+      password: eureka
+
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    register-with-eureka: false
+    service-url:
+      defaultZone: http://eureka:eureka@localhost:8082/eureka/
+  server:
+    enable-self-preservation: false

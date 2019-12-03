@@ -1,0 +1,16 @@
+server:
+  port: 7061
+
+spring:
+  application:
+    name: @artifactId@
+feign:
+  hystrix:
+    enabled: true
+
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://eureka:eureka@localhost:8081/eureka/,http://eureka:eureka@localhost:8082/eureka/
