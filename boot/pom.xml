@@ -40,7 +40,7 @@
         <javax.validation>2.0.1.Final</javax.validation>
         <zxing.version>3.4.0</zxing.version>
 
-        <shiro.version>1.4.2</shiro.version>
+        <shiro.version>1.7.1</shiro.version>
         <redisson.version>3.11.5</redisson.version>
 
         <boot.version>1.0.0</boot.version>
